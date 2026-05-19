@@ -16,5 +16,18 @@ cd
 
 #ruta relativa no tiene toda la ruta completa 
 
-# lista archivos y directorios
+# lista archivos y directorios en el directorio actual
 ls
+# 
+ls -a
+# para ir al directorio raiz de linux
+cd -/
+#cambio de directorio al directorio de binarios de linux
+#ruta absoluta
+cd /bin
+# ruta relativa
+cd bin
+# para permisos de super ususuario
+sudo cp
+# significa make directory y sirve para crear un nuevo directorio
+mkdir nuevo_directorio
