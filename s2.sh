@@ -16,16 +16,16 @@ cd
 #ruta relativa no tiene toda la ruta completa 
 # lista archivos y directorios en el directorio actual
 ls
-# 
+# Me muestra todos los archivos (incluyendo archivos ocultos). "a" ees de "all"
 ls -a
 # para ir al directorio raiz de linux
-cd -/
+cd /
 #cambio de directorio al directorio de binarios de linux
 #ruta absoluta
 cd /bin
 # ruta relativa
 cd bin
 # para permisos de super ususuario
-sudo cp
+sudo cp /workspaces/intro-unix-may-2025-online/hola_binario /bin/hola_binario
 # significa make directory y sirve para crear un nuevo directorio
 mkdir nuevo_directorio
